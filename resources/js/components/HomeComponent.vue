@@ -16,7 +16,7 @@
                 <div class="card-body">
                   <div class="media d-flex">
                     <div class="media-body text-left">
-                      <h3 class="danger">278</h3>
+                      <h3 class="danger">{{getApplications.length}}</h3>
                       <span>Total Applications</span>
                     </div>
                     <div class="align-self-center">
@@ -115,7 +115,7 @@
             <b-table headVariant="dark" :fields="fields" :per-page="perPage" :items="getApplications"></b-table>
           </div>
           <div class="justify-content-center d-flex">
-            <router-link class="btn btn-outline-secondary rounded-pill px-5" :to="{ name: 'reports'}">View all</router-link>
+            <router-link class="btn btn-outline-secondary rounded-pill px-5" :to="{ name: 'applications'}">View all</router-link>
           </div>
             </div>
           </div>

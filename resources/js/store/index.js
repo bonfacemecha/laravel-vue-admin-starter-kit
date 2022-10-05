@@ -60,7 +60,7 @@ const actions = {
                 });
                 dispatch('resetRegState');
                 router.push({
-                    name: "my-applications",
+                    name: "applications",
                 });
             })
             .catch((err) => {

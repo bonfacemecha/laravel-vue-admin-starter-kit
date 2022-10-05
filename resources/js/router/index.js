@@ -19,8 +19,8 @@ const routes = [
         component: PersonalDetails
     },
     {
-        path: '/my-applications',
-        name: 'my-applications',
+        path: '/applications',
+        name: 'applications',
         component: MyApplications
     },
 ]

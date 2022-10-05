@@ -55,7 +55,7 @@ class RegisterController extends Controller
 
             if (Auth::user()->role_id == User::ADMIN) {
                 return response()->json([
-                   'applications' =>   $applications
+                   'applications' =>   $applications,
             ]);
             } else {
                 return response()->json([
