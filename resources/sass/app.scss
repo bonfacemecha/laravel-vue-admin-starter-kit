@@ -1,0 +1,24 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap 
+@import '~bootstrap/scss/bootstrap';
+
+.borderless {
+    border: none !important;
+}
+.bg-light-default{
+    background-color: #f9f9fa;
+    --bullet-color: #F1F9FA;
+}
+
+#sidebar-wrapper .list-group a:hover,
+#sidebar-wrapper .list-group a.router-link-exact-active {
+  background-color: #7b8186;
+  color:#fff;
+  cursor: pointer;
+}
+
